@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول - تيك توك</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .login-container h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        .input-group input:focus {
+            border-color: #fe2c55;
+            outline: none;
+        }
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #fe2c55;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .login-button:hover {
+            background-color: #e02447;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #888;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .footer a:hover {
+            color: #fe2c55;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>تسجيل الدخول إلى تيك توك</h2>
+        <div class="input-group">
+            <input type="email" placeholder="البريد الإلكتروني" required>
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="كلمة المرور" required>
+        </div>
+        <button class="login-button">تسجيل الدخول</button>
+        <div class="footer">
+            <p>ليس لديك حساب؟ <a href="#">التسجيل الآن</a></p>
+        </div>
+    </div>
+</body>
+</html>
